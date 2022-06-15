@@ -1,0 +1,137 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.container{
+    display:flex;
+    height: 100vh;
+    width: 100vw;
+    max-height: 800px;
+    max-width: 1280px;
+    min-height: 600px;
+    min-width: 1000px;
+   
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.border {
+    height: 369px;
+    width: 290px;
+    background: transparent;
+    border-radius: 10px;
+    transition: border 1s;
+    position: relative;
+    
+    
+    
+
+}
+
+.border:hover {
+
+    border: 1px solid white;
+   
+}
+
+.card{
+    height: 379px;
+    width: 300px;
+    
+    display: flex;
+    border-radius: 10px;
+    background: black;
+    transition: background 0.8s;
+    overflow: hidden;
+    box-shadow: 0 70px 63px -60px black;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card0{
+    background: url('https://i.pinimg.com/originals/67/9a/be/679abea8d9c28fbcc3d6fe840c24a779.jpg') center center no-repeat;
+    background-size: 310px;
+}
+
+.card0:hover{
+    background: url('https://i.pinimg.com/originals/67/9a/be/679abea8d9c28fbcc3d6fe840c24a779.jpg') left center no-repeat;
+    background-size: 600px;
+    
+}
+
+.card0:hover h2{
+    opacity: 1;
+}
+.card0:hover .fa-brands{
+    opacity: 1;
+}
+
+
+
+.card1{
+    background: url('https://live.staticflickr.com/7851/44742565250_91e09e4ab8_b.jpg') center center no-repeat;
+    background-size: 310px;
+}
+
+.card1:hover{
+    background: url('https://live.staticflickr.com/7851/44742565250_91e09e4ab8_b.jpg') left center no-repeat;
+    background-size: 600px;
+}
+
+.card1:hover h2 {
+    opacity: 1;
+}
+.card1:hover .fa-brands {
+    opacity: 1;
+}
+
+.card2{
+    background: url('https://i.pinimg.com/originals/d9/90/33/d99033dce9a8e3ba8e517d31944088f1.jpg') center center no-repeat;
+    background-size: 310px;
+}
+
+.card2:hover{
+    background: url('https://i.pinimg.com/originals/d9/90/33/d99033dce9a8e3ba8e517d31944088f1.jpg') left center no-repeat;
+    background-size: 600px;
+}
+
+.card2:hover h2 {
+    opacity: 1;
+}
+.card2:hover .fa-brands {
+    opacity: 1;
+}
+
+
+h2{
+    font-family:  'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color:white;
+    opacity:0;
+    transition: opacity 1s;
+    margin: 20px;
+
+}
+
+.fa-brands{
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.icons{
+    position: absolute;
+    fill: #fff;
+    color: #fff;
+    height: 130px;
+    width: 50px;
+    top:226px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
